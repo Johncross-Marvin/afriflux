@@ -140,7 +140,7 @@ export function CompaniesSection() {
 
         <div className="relative overflow-hidden rounded-3xl lg:order-2">
           <img
-            src="/20260629_141821.jpg.jpeg"
+            src="/FB_IMG_1769844190597.jpg.jpeg"
             alt="AfriFlux representative presenting Ecoflux at a public event"
             className="h-full min-h-[320px] w-full object-cover"
           />
