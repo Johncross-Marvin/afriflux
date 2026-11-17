@@ -54,7 +54,7 @@ export function ImpactSection() {
             className="h-full min-h-[400px] w-full object-cover"
           />
           <div className="absolute bottom-4 left-4 rounded-full bg-background/90 px-4 py-2 text-xs font-medium text-foreground backdrop-blur">
-            Technician working beneath installed solar panels
+            Poulber MD/CEO at a poultry farm during team members training and farm session
           </div>
         </div>
       </div>
