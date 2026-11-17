@@ -75,6 +75,31 @@ export function IdeaSection() {
           </a>
         </div>
       </div>
+
+      {/* Photo gallery strip */}
+      <div className="mt-6 grid grid-cols-2 gap-6 lg:grid-cols-3">
+        <div className="relative overflow-hidden rounded-3xl">
+          <img
+            src="/IMG-20260206-WA0011.jpg.jpeg"
+            alt="AfriFlux, Poulber and Ecoflux activities"
+            className="h-56 w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-64"
+          />
+        </div>
+        <div className="relative overflow-hidden rounded-3xl">
+          <img
+            src="/FB_IMG_1769844190597.jpg.jpeg"
+            alt="AfriFlux, Poulber and Ecoflux project environment"
+            className="h-56 w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-64"
+          />
+        </div>
+        <div className="relative overflow-hidden rounded-3xl">
+          <img
+            src="/20260629_135907.jpg.jpeg"
+            alt="AfriFlux, Poulber and Ecoflux team"
+            className="h-56 w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-64"
+          />
+        </div>
+      </div>
     </section>
   );
 }

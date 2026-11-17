@@ -70,15 +70,20 @@ export function Footer() {
             <ul className="mt-5 space-y-3">
               <li>
                 <a
-                  href="#companies"
-                  className="text-base text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                  href="https://www.poulber.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-base text-primary-foreground/80 transition-colors hover:text-primary-foreground"
                 >
                   Poulber Africa
+                  <ArrowUpRight className="h-4 w-4" />
                 </a>
               </li>
               <li>
                 <a
-                  href="#companies"
+                  href="https://www.ecofluxng.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-base text-primary-foreground/80 transition-colors hover:text-primary-foreground"
                 >
                   Ecoflux Nigeria

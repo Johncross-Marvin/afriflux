@@ -75,7 +75,9 @@ export function CompaniesSection() {
           </div>
 
           <a
-            href="#connect"
+            href="https://www.poulber.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group mt-8 inline-flex items-center gap-2 text-base font-semibold text-primary"
           >
             Explore Poulber
@@ -126,7 +128,9 @@ export function CompaniesSection() {
           </div>
 
           <a
-            href="#connect"
+            href="https://www.ecofluxng.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group mt-8 inline-flex items-center gap-2 text-base font-semibold text-primary"
           >
             Visit Ecoflux website
