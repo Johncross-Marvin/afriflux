@@ -1,4 +1,4 @@
-import { ArrowUpRight, MessageCircle, Sparkles } from "lucide-react";
+import { ArrowUpRight, MessageCircle } from "lucide-react";
 
 const audiences = ["Investors & funders", "Strategic partners", "Entrepreneurs"];
 
@@ -41,7 +41,11 @@ export function ContactSection() {
 
           {/* Right column: dark CTA panel */}
           <div className="relative flex flex-col justify-between rounded-2xl bg-[#0B2C2B] p-8 shadow-lg sm:p-10">
-            <Sparkles className="absolute right-6 top-6 h-5 w-5 text-[#E9B850]" />
+            <img
+              src="/favicon.png"
+              alt="AfriFlux mark"
+              className="absolute right-6 top-6 h-6 w-6 object-contain"
+            />
 
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.18em] text-white/50">

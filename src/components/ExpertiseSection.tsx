@@ -1,4 +1,4 @@
-import { ArrowUpRight, LineChart, Boxes, Activity } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const services = [
   {
@@ -7,7 +7,6 @@ const services = [
     description:
       "Feasibility, business modelling, investor readiness and cross-border opportunity development.",
     cta: "Make it investable",
-    icon: LineChart,
   },
   {
     number: "02",
@@ -15,7 +14,6 @@ const services = [
     description:
       "Proposed ring-fenced structures linking finance to identifiable assets and practical enterprise needs.",
     cta: "Make it productive",
-    icon: Boxes,
   },
   {
     number: "03",
@@ -23,7 +21,6 @@ const services = [
     description:
       "Asset-level oversight, performance data, traceability and transparent outcome reporting.",
     cta: "Make it accountable",
-    icon: Activity,
   },
 ];
 
@@ -54,7 +51,6 @@ export function ExpertiseSection() {
 
         <div className="grid gap-6 md:grid-cols-3">
           {services.map((service) => {
-            const Icon = service.icon;
             return (
               <div
                 key={service.number}
@@ -65,8 +61,12 @@ export function ExpertiseSection() {
                     <span className="font-display text-sm font-bold text-[#126F4C]">
                       {service.number}
                     </span>
-                    <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F5F7F3] text-[#126F4C]">
-                      <Icon className="h-5 w-5" strokeWidth={1.5} />
+                    <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F5F7F3]">
+                      <img
+                        src="/favicon.png"
+                        alt="AfriFlux mark"
+                        className="h-6 w-6 object-contain"
+                      />
                     </span>
                   </div>
 

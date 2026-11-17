@@ -1,4 +1,4 @@
-import { ArrowUpRight, Sparkles } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 export function IdeaSection() {
   return (
@@ -57,8 +57,8 @@ export function IdeaSection() {
 
             {/* Info badge */}
             <div className="absolute -bottom-6 left-6 flex items-center gap-4 rounded-2xl bg-[#0B2C2B] px-6 py-5 shadow-lg">
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#E9B850]/20 text-[#E9B850]">
-                <Sparkles className="h-5 w-5" />
+              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#E9B850]/20">
+                <img src="/favicon.png" alt="AfriFlux mark" className="h-6 w-6 object-contain" />
               </span>
               <div>
                 <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-white/60">
