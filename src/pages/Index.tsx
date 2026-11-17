@@ -1,17 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
-
-import { MadeWithTechBuddy } from "@/components/made-with-tech-buddy";
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { Marquee } from "@/components/Marquee";
+import { IdeaSection } from "@/components/IdeaSection";
+import { ExpertiseSection } from "@/components/ExpertiseSection";
+import { CompaniesSection } from "@/components/CompaniesSection";
+import { ApproachSection } from "@/components/ApproachSection";
+import { ImpactSection } from "@/components/ImpactSection";
+import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">
-          Start building your amazing project here!
-        </p>
-      </div>
-      <MadeWithTechBuddy />
+    <div className="min-h-screen bg-background text-foreground">
+      <Header />
+      <main>
+        <Hero />
+        <Marquee />
+        <IdeaSection />
+        <ExpertiseSection />
+        <CompaniesSection />
+        <ApproachSection />
+        <ImpactSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   );
 };
