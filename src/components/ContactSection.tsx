@@ -52,7 +52,7 @@ export function ContactSection() {
                 building and how our priorities might align.
               </p>
               <a
-                href="https://wa.me/"
+                href="https://api.whatsapp.com/send/?phone=2348073513959&text=Hello+AfriFlux%2C+I%27d+like+to+discuss+a+potential+partnership.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3.5 text-sm font-semibold text-accent-foreground transition-all hover:brightness-105"
