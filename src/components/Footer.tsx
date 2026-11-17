@@ -2,10 +2,10 @@ import { ArrowUpRight, ArrowUp } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-[#071D24] text-white">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
         {/* Top */}
-        <div className="flex flex-col gap-8 border-b border-primary-foreground/15 pb-12 lg:flex-row lg:items-end lg:justify-between">
+        <div className="flex flex-col gap-8 border-b border-white/10 pb-12 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <div className="flex items-center gap-2.5">
               <img
@@ -17,12 +17,12 @@ export function Footer() {
                 <span className="font-display text-xl font-bold tracking-tight">
                   AFRIFLUX
                 </span>
-                <span className="block text-[10px] font-medium uppercase tracking-[0.2em] text-primary-foreground/60">
+                <span className="block text-[10px] font-medium uppercase tracking-[0.2em] text-white/50">
                   Impact Advisory BV
                 </span>
               </div>
             </div>
-            <p className="mt-6 max-w-md text-lg font-medium leading-snug">
+            <p className="mt-6 max-w-md text-lg font-medium leading-snug text-white/80">
               Catalyzing Capital.
               <br />
               Empowering Youth.
@@ -31,9 +31,9 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="flex items-center gap-3 text-sm font-medium text-primary-foreground/70">
+          <div className="flex items-center gap-3 text-sm font-medium text-white/60">
             <span>Flanders, Belgium</span>
-            <span className="text-accent">↔</span>
+            <span className="text-[#E9B850]">↔</span>
             <span>Nigeria</span>
           </div>
         </div>
@@ -41,7 +41,7 @@ export function Footer() {
         {/* Link columns */}
         <div className="grid gap-10 py-12 sm:grid-cols-3">
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-primary-foreground/50">
+            <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-[#E9B850]">
               Company
             </h4>
             <ul className="mt-5 space-y-3">
@@ -54,7 +54,7 @@ export function Footer() {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className="text-base text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                    className="text-sm text-white/70 transition-colors hover:text-white"
                   >
                     {item.label}
                   </a>
@@ -64,7 +64,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-primary-foreground/50">
+            <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-[#E9B850]">
               Backed companies
             </h4>
             <ul className="mt-5 space-y-3">
@@ -73,7 +73,7 @@ export function Footer() {
                   href="https://www.poulber.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-base text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                  className="inline-flex items-center gap-1 text-sm text-white/70 transition-colors hover:text-white"
                 >
                   Poulber Africa
                   <ArrowUpRight className="h-4 w-4" />
@@ -84,7 +84,7 @@ export function Footer() {
                   href="https://www.ecofluxng.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-base text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                  className="inline-flex items-center gap-1 text-sm text-white/70 transition-colors hover:text-white"
                 >
                   Ecoflux Nigeria
                   <ArrowUpRight className="h-4 w-4" />
@@ -94,42 +94,40 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-primary-foreground/50">
+            <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-[#E9B850]">
               Collaborate
             </h4>
             <ul className="mt-5 space-y-3">
               <li>
                 <a
                   href="#connect"
-                  className="text-base text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                  className="text-sm text-white/70 transition-colors hover:text-white"
                 >
                   Partnership enquiries
                 </a>
               </li>
-              <li className="text-base text-primary-foreground/80">
-                Belgium & Nigeria
-              </li>
+              <li className="text-sm text-white/70">Belgium & Nigeria</li>
             </ul>
           </div>
         </div>
 
         {/* Bottom */}
-        <div className="flex flex-col gap-6 border-t border-primary-foreground/15 pt-8 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-sm text-primary-foreground/60">
+        <div className="flex flex-col gap-6 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-sm text-white/50">
             © 2026 AfriFlux Impact Advisory. All rights reserved.
           </p>
           <a
             href="#top"
-            className="group inline-flex items-center gap-2 text-sm font-semibold text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+            className="group inline-flex items-center gap-2 text-sm font-semibold text-white/70 transition-colors hover:text-white"
           >
             Back to top
-            <span className="flex h-8 w-8 items-center justify-center rounded-full border border-primary-foreground/30 transition-transform group-hover:-translate-y-1">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full border border-white/25 transition-transform group-hover:-translate-y-1">
               <ArrowUp className="h-4 w-4" />
             </span>
           </a>
         </div>
 
-        <p className="mt-8 text-xs leading-relaxed text-primary-foreground/45">
+        <p className="mt-8 text-xs leading-relaxed text-white/40">
           This website is for general information, not an offer of securities or
           a promise of investment returns. Proposed financing arrangements and
           venture programmes require appropriate legal, regulatory and
@@ -138,7 +136,7 @@ export function Footer() {
           Poulber and Ecoflux activities, teams and project environments.
         </p>
 
-        <p className="mt-6 border-t border-primary-foreground/10 pt-6 text-center text-xs font-medium uppercase tracking-[0.15em] text-primary-foreground/50">
+        <p className="mt-6 border-t border-white/10 pt-6 text-center text-xs font-medium uppercase tracking-[0.15em] text-white/40">
           Developed by XPRESSVERSE TECHNOLOGIES LTD
         </p>
       </div>
