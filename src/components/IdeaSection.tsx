@@ -94,7 +94,7 @@ export function IdeaSection() {
         </div>
         <div className="relative overflow-hidden rounded-3xl">
           <img
-            src="/20260629_135907.jpg.jpeg"
+            src="/IMG_20260224_175925_873.png"
             alt="AfriFlux, Poulber and Ecoflux team"
             className="h-56 w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-64"
           />

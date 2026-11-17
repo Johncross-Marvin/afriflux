@@ -26,7 +26,7 @@ export function CompaniesSection() {
       <div className="grid gap-6 lg:grid-cols-2">
         <div className="relative overflow-hidden rounded-3xl">
           <img
-            src="/IMG_20260224_175925_873.png"
+            src="/20260629_135907.jpg.jpeg"
             alt="Poulber team members at a poultry training and farm session"
             className="h-full min-h-[320px] w-full object-cover"
           />
