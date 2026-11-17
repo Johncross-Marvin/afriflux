@@ -32,7 +32,7 @@ export function CompaniesSection() {
               <img
                 src="/20260629_135907.jpg.jpeg"
                 alt="Poulber team members at a poultry training and farm session"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover object-top"
                 style={{ filter: "contrast(1.04) saturate(0.93)" }}
               />
               <span className="absolute left-4 top-4 rounded-full bg-white/90 px-4 py-1.5 text-xs font-semibold text-[#122730] backdrop-blur">
@@ -86,7 +86,7 @@ export function CompaniesSection() {
               <img
                 src="/FB_IMG_1769844190597.jpg.jpeg"
                 alt="AfriFlux representative presenting Ecoflux at a public event"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover object-top"
                 style={{ filter: "contrast(1.04) saturate(0.93)" }}
               />
               <span className="absolute left-4 top-4 rounded-full bg-white/90 px-4 py-1.5 text-xs font-semibold text-[#122730] backdrop-blur">
