@@ -137,6 +137,10 @@ export function Footer() {
           equity holding. Selected images on this website feature AfriFlux,
           Poulber and Ecoflux activities, teams and project environments.
         </p>
+
+        <p className="mt-6 border-t border-primary-foreground/10 pt-6 text-center text-xs font-medium uppercase tracking-[0.15em] text-primary-foreground/50">
+          Developed by XPRESSVERSE TECHNOLOGIES LTD
+        </p>
       </div>
     </footer>
   );
