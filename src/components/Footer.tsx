@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2.5">
               <img
-                src="/afriflux-mark.png"
+                src="/favicon.png"
                 alt="AfriFlux mark"
                 className="h-10 w-10 object-contain"
               />

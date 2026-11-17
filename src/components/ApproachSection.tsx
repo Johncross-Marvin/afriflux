@@ -71,7 +71,7 @@ export function ApproachSection() {
         <div className="mt-12 flex flex-col items-start gap-6 rounded-3xl border border-primary-foreground/15 p-8 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="/afriflux-mark.png"
+              src="/favicon.png"
               alt="AfriFlux logo mark"
               className="h-12 w-12 object-contain"
             />

@@ -31,7 +31,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
         <a href="#top" className="flex items-center gap-2.5">
           <img
-            src="/afriflux-mark.png"
+            src="/favicon.png"
             alt="AfriFlux mark"
             className="h-9 w-9 object-contain"
           />
