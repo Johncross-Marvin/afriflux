@@ -49,7 +49,7 @@ export function IdeaSection() {
           <img
             src="/IMG_20260224_175911_977.png"
             alt="AfriFlux representatives with international partners at an industry event"
-            className="h-72 w-full object-cover sm:h-96"
+            className="h-72 w-full object-cover object-top sm:h-96"
           />
           <div className="absolute bottom-4 left-4 rounded-full bg-background/90 px-4 py-2 text-xs font-medium text-foreground backdrop-blur">
             AfriFlux representatives with international partners at an industry
@@ -89,7 +89,7 @@ export function IdeaSection() {
           <img
             src="/20260629_141821.jpg.jpeg"
             alt="AfriFlux, Poulber and Ecoflux project environment"
-            className="h-56 w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-64"
+            className="h-56 w-full object-cover object-top transition-transform duration-500 hover:scale-105 sm:h-64"
           />
         </div>
         <div className="relative overflow-hidden rounded-3xl">
