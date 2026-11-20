@@ -1,4 +1,35 @@
-import { ArrowUpRight, ArrowUp } from "lucide-react";
+import {
+  ArrowUpRight,
+  ArrowUp,
+  Instagram,
+  Facebook,
+  Twitter,
+  Linkedin,
+  Mail,
+} from "lucide-react";
+
+const socialLinks = [
+  {
+    label: "Instagram",
+    href: "https://instagram.com/ecofluxng",
+    icon: Instagram,
+  },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/ecofluxng",
+    icon: Facebook,
+  },
+  {
+    label: "Twitter",
+    href: "https://twitter.com/ecofluxng",
+    icon: Twitter,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/company/ecoflux-ng/",
+    icon: Linkedin,
+  },
+];
 
 export function Footer() {
   return (
@@ -108,6 +139,35 @@ export function Footer() {
               </li>
               <li className="text-sm text-white/70">Belgium & Nigeria</li>
             </ul>
+          </div>
+        </div>
+
+        {/* Social + email */}
+        <div className="flex flex-col gap-6 border-t border-white/10 py-8 sm:flex-row sm:items-center sm:justify-between">
+          <a
+            href="mailto:info@app.afriflux.co"
+            className="inline-flex items-center gap-2 text-sm font-medium text-white/70 transition-colors hover:text-white"
+          >
+            <Mail className="h-4 w-4 text-[#E9B850]" />
+            info@app.afriflux.co
+          </a>
+
+          <div className="flex items-center gap-3">
+            {socialLinks.map((social) => {
+              const Icon = social.icon;
+              return (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.label}
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-white/70 transition-all hover:border-[#E9B850] hover:text-[#E9B850]"
+                >
+                  <Icon className="h-4 w-4" />
+                </a>
+              );
+            })}
           </div>
         </div>
 
